@@ -1,0 +1,55 @@
+
+<polymer-element name='football-matchday' attributes='event'>
+
+  <template>
+   <style>
+     .football-widget {
+        border: 1px solid green;
+        padding: 4px;
+        margin: 10px;
+     }
+    </style>
+
+   <div class='football-widget'>
+    <h3>
+      {{ data.event.title }}  -  {{ data.round.title }}
+    </h3>
+
+    <table>
+   <template repeat='{{data.games}}'>
+   <tr>
+    <td>
+      {{ play_at }}
+     </td>
+     <td style='text-align: right;'>
+       {{ team1_title }} ({{ team1_code }})
+     </td>
+
+     <td>
+       {{ score1 }} - {{ score2 }}
+     </td>
+     <td>
+      {{ team2_title }} ({{ team2_code }})
+     </td>
+   </tr>
+   </template>
+    </table>
+
+ </div>
+ </template>
+
+  <script>
+    Polymer('football-matchday', {
+      // event: 'at.2014/15',
+      data: {
+  "event":{"key":"at.2014/15","title":"Österr. Bundesliga 2014/15"},
+  "round":{"pos":6,"title":"6. Runde","start_at":"2014/08/23","end_at":"2014/08/24"},
+  "games":[{"team1_title":"Sturm Graz","team1_code":"STU","team2_title":"Wolfsberger AC","team2_code":"WAC","play_at":"2014/08/23","score1":1,"score2":2},
+           {"team1_title":"RB Salzbrug","team1_code":"RBS","team2_title":"SCR Altach","team2_code":"ALT","play_at":"2014/08/23","score1":5,"score2":0},
+           {"team1_title":"SV Ried","team1_code":"RIE","team2_title":"SV Grödig","team2_code":"SVG","play_at":"2014/08/23","score1":2,"score2":2},
+           {"team1_title":"Wr. Neustadt","team1_code":"WRN","team2_title":"Admira Wacker","team2_code":"ADM","play_at":"2014/08/23","score1":5,"score2":4},
+           {"team1_title":"Austria Wien","team1_code":"AUS","team2_title":"Rapid Wien","team2_code":"RAP","play_at":"2014/08/24","score1":2,"score2":2}]
+       } 
+    });
+  </script>
+</polymer-element>
