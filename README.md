@@ -3,6 +3,10 @@
 Football matchday tag / element / web component using the football.db HTTP JSON(P) API
 
 
+Live Demo
+
+Try the football web component running on GitHub pages
+[`footballjs.github.io/football.html/index.html`](http://footballjs.github.io/football.html/index.html)
 
 
 ## License
