@@ -2,7 +2,7 @@
 
 
 
-**football.html**
+## 1) football.html
 
 Football matchday tag / element / web component using the football.db HTTP JSON(P) API
 
@@ -10,7 +10,7 @@ Football matchday tag / element / web component using the football.db HTTP JSON(
 
 
 
-# football.js.starter
+## 2) football.js.starter
 
 Football matchday widget in JavaScript using the football.db HTTP JSON(P) API
 
