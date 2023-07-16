@@ -32,8 +32,7 @@ Football matchday widget in JavaScript using the football.db HTTP JSON(P) API
 
 ### 3) football.js
 
-Football widgets in JavaScript using the [football.db HTTP JSON(P) API](https://github.com/openfootball/api)
-
+Football widgets in JavaScript using the football.db HTTP JSON(P) API
 
 [more »](football.js)
 
