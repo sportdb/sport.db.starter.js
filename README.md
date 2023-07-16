@@ -1,8 +1,8 @@
-# sport.db.starters - Build Your Own HTTP JSON API(S) & More
+# sport.db Starters - Build Your Own HTTP JSON API(S) & More
 
 
 
-## sport.db.starter (Node.js Edition)
+## sport.db Starter (Node.js Edition)
 
 The sportdb web service starter sample let's build your own HTTP JSON API using the
 `football.db`, `worldcup.db`, `ski.db`, `formulal1.db`, etc.
@@ -23,7 +23,7 @@ Football matchday tag / element / web component using the football.db HTTP JSON(
 
 
 
-### 2) football.js.starter
+### 2) football.js Starter
 
 Football matchday widget in JavaScript using the football.db HTTP JSON(P) API
 
